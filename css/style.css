@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 165, 210);
+}
+
+.bar {
+  background-image: url("../images/cicek.webp");
+  background-size: 100%;
+  width: 100%;
+  height: 80px;
+  padding: 15px;
+  justify-content: space-between; /*herbir div'i bir köşeye yerleştirir*/
+  display: flex; /* öğelerin yatayda yerleşmesini sağlar */
+  align-items: flex-start; /*dikeyde üstten başlanması sağlanır*/
+  /*position: fixed; bar'ın üst kısımda sabit kalmasını sağlar*/
+  top: 0;
+  left: 0;
+  z-index: 1000; /* gerekirse bar hep üstte kalsın */
+}
+
+.bar div:last-child {
+  margin-right: 30px;
+}
+
+.title h1 {
+  border-style: dotted;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.title {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.alignment {
+  justify-content: space-between;
+  display: flex;
+  padding: 30px;
+}
+
+.tablo-td {
+  width: 15%;
+  background-color: #d98dba;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #d98dba;
+  padding-top: 50px;
+  display: flex;
+  gap: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer {
+  margin-top: 90px;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  background-color: #d98dba;
+}
+
+.alignment1 {
+  justify-content: space-between;
+  display: flex;
+  padding: 30px;
+}
+
+.kutu {
+  margin-top: 50px;
+  margin-left: 350px;
+  width: 800px;
+  height: 200px;
+  background-color: #d98dba;
+  justify-content: space-between;
+  display: flex;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.kutu img {
+  border-radius: 20px; /* Köşeleri yumuşatır */
+  padding: 30px;
+}
+
+.map {
+  padding: 100px;
+  margin-left: 350px;
+}
